@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Connect 4</title>
+</head>
+<body>
+    <div id="fundo">
+        <h1 id="titulo">Connect 4</h1>
+        <table id="tabela1">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img1" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img2" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img3" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img4" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img5" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img6" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela2">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img7" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img8" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img9" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img10" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img11" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img12" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela3">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img13" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img14" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img15" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img16" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img17" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img18" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela4">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img19" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img20" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img21" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img22" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img23" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img24" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela5">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img25" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img26" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img27" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img28" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img29" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img30" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela6">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img31" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img32" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img33" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img34" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img35" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img36" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <table id="tabela7">
+            <tr>
+                <th><img src="Campo_neutro.png" id="img37" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img38" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img39" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img40" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img41" onclick="verificaVitoria()"></th>
+            </tr>
+            <tr>
+                <th><img src="Campo_neutro.png" id="img42" onclick="verificaVitoria()"></th>
+            </tr>
+        </table>
+
+        <div id="jogador">É a vez do jogador Vermelho</div>
+        <div id="vitorias_Vermelho">Vitórias do jogador Vermelho: 0</div>
+        <div id="vitorias_Amarelo">Vitórias do jogador Amarelo: 0</div>
+        <div><input type="button" value="Limpar campo" onclick="reset()" id="botao1"></div>
+    </div>
+
+    <script src="js.js"></script>
+    <script>
+        var img1 = document.getElementById('img1');
+        var img2 = document.getElementById('img2');
+        var img3 = document.getElementById('img3');
+        var img4 = document.getElementById('img4');
+        var img5 = document.getElementById('img5');
+        var img6 = document.getElementById('img6');
+
+        var img7 = document.getElementById('img7');
+        var img8 = document.getElementById('img8');
+        var img9 = document.getElementById('img9');
+        var img10 = document.getElementById('img10');
+        var img11 = document.getElementById('img11');
+        var img12 = document.getElementById('img12');
+
+        var img13 = document.getElementById('img13');
+        var img14 = document.getElementById('img14');
+        var img15 = document.getElementById('img15');
+        var img16 = document.getElementById('img16');
+        var img17 = document.getElementById('img17');
+        var img18 = document.getElementById('img18');
+
+        var img19 = document.getElementById('img19');
+        var img20 = document.getElementById('img20');
+        var img21 = document.getElementById('img21');
+        var img22 = document.getElementById('img22');
+        var img23 = document.getElementById('img23');
+        var img24 = document.getElementById('img24');
+
+        var img25 = document.getElementById('img25');
+        var img26 = document.getElementById('img26');
+        var img27 = document.getElementById('img27');
+        var img28 = document.getElementById('img28');
+        var img29 = document.getElementById('img29');
+        var img30 = document.getElementById('img30');
+
+        var img31 = document.getElementById('img31');
+        var img32 = document.getElementById('img32');
+        var img33 = document.getElementById('img33');
+        var img34 = document.getElementById('img34');
+        var img35 = document.getElementById('img35');
+        var img36 = document.getElementById('img36');
+
+        var img37 = document.getElementById('img37');
+        var img38 = document.getElementById('img38');
+        var img39 = document.getElementById('img39');
+        var img40 = document.getElementById('img40');
+        var img41 = document.getElementById('img41');
+        var img42 = document.getElementById('img42');
+
+        var vitorias_Vermelho = document.getElementById('vitorias_Vermelho');
+        var vitorias_Amarelo = document.getElementById('vitorias_Amarelo');
+        var contador_vitorias_Vermelho = 0;
+        var contador_vitorias_Amarelo = 0;
+
+        function verificaVitoria() {
+            setTimeout(function () {
+                //Vitoria do jogador vermelho na horizontal das 4 colunas /XXXX---/
+                if ((imagem6.src === imagem12.src && imagem12.src === imagem18.src && imagem18.src === imagem24.src) && imagem6.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem5.src === imagem11.src && imagem11.src === imagem17.src && imagem17.src === imagem23.src) && imagem5.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem4.src === imagem10.src && imagem10.src === imagem16.src && imagem16.src === imagem22.src) && imagem4.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem3.src === imagem9.src && imagem9.src === imagem15.src && imagem15.src === imagem21.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem2.src === imagem8.src && imagem8.src === imagem14.src && imagem14.src === imagem20.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem1.src === imagem7.src && imagem7.src === imagem13.src && imagem13.src === imagem19.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na horizontal das 4 colunas /-XXXX--/ 
+                if ((imagem12.src === imagem18.src && imagem18.src === imagem24.src && imagem24.src === imagem30.src) && imagem12.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem11.src === imagem17.src && imagem17.src === imagem23.src && imagem23.src === imagem29.src) && imagem11.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem10.src === imagem16.src && imagem16.src === imagem22.src && imagem22.src === imagem28.src) && imagem10.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem15.src && imagem15.src === imagem21.src && imagem21.src === imagem27.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem14.src && imagem14.src === imagem20.src && imagem20.src === imagem26.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem13.src && imagem13.src === imagem19.src && imagem19.src === imagem25.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na horizontal das 4 colunas /--XXXX-/ 
+                if ((imagem18.src === imagem24.src && imagem24.src === imagem30.src && imagem30.src === imagem36.src) && imagem18.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem17.src === imagem23.src && imagem23.src === imagem29.src && imagem29.src === imagem35.src) && imagem17.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem16.src === imagem22.src && imagem22.src === imagem28.src && imagem28.src === imagem34.src) && imagem16.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem21.src && imagem21.src === imagem27.src && imagem27.src === imagem33.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem20.src && imagem20.src === imagem26.src && imagem26.src === imagem32.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem19.src && imagem19.src === imagem25.src && imagem25.src === imagem31.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na horizontal das 4 colunas /---XXXX/ 
+                if ((imagem24.src === imagem30.src && imagem30.src === imagem36.src && imagem36.src === imagem42.src) && imagem24.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem23.src === imagem29.src && imagem29.src === imagem35.src && imagem35.src === imagem41.src) && imagem23.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem22.src === imagem28.src && imagem28.src === imagem34.src && imagem34.src === imagem40.src) && imagem22.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem27.src && imagem27.src === imagem33.src && imagem33.src === imagem39.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem26.src && imagem26.src === imagem32.src && imagem32.src === imagem38.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem25.src && imagem25.src === imagem31.src && imagem31.src === imagem37.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+                
+                //Vitoria do jogador vermelho na vertical das 4 primeiras linhas de baixo pra cima
+                if ((imagem3.src === imagem4.src && imagem4.src === imagem5.src && imagem5.src === imagem6.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem10.src && imagem10.src === imagem11.src && imagem11.src === imagem12.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem16.src && imagem16.src === imagem17.src && imagem17.src === imagem18.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem22.src && imagem22.src === imagem23.src && imagem23.src === imagem24.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem27.src === imagem28.src && imagem28.src === imagem29.src && imagem29.src === imagem30.src) && imagem27.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem33.src === imagem34.src && imagem34.src === imagem35.src && imagem35.src === imagem36.src) && imagem33.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem39.src === imagem40.src && imagem40.src === imagem41.src && imagem41.src === imagem42.src) && imagem39.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na vertical das 4 linhas tirando a primeira de baixo pra cima
+                if ((imagem2.src === imagem3.src && imagem3.src === imagem4.src && imagem4.src === imagem5.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem9.src && imagem9.src === imagem10.src && imagem10.src === imagem11.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem15.src && imagem15.src === imagem16.src && imagem16.src === imagem17.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem21.src && imagem21.src === imagem22.src && imagem22.src === imagem23.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem26.src === imagem27.src && imagem27.src === imagem28.src && imagem28.src === imagem29.src) && imagem26.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem32.src === imagem33.src && imagem33.src === imagem34.src && imagem34.src === imagem35.src) && imagem32.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem38.src === imagem39.src && imagem39.src === imagem40.src && imagem40.src === imagem41.src) && imagem38.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na vertical das 4 primeiras linhas de cima pra baixo
+                if ((imagem1.src === imagem2.src && imagem2.src === imagem3.src && imagem3.src === imagem4.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem8.src && imagem8.src === imagem9.src && imagem9.src === imagem10.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem14.src && imagem14.src === imagem15.src && imagem15.src === imagem16.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem20.src && imagem20.src === imagem21.src && imagem21.src === imagem22.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem25.src === imagem26.src && imagem26.src === imagem27.src && imagem27.src === imagem28.src) && imagem25.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem31.src === imagem32.src && imagem32.src === imagem33.src && imagem33.src === imagem34.src) && imagem31.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem37.src === imagem38.src && imagem38.src === imagem39.src && imagem39.src === imagem40.src) && imagem37.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na diagonal direita
+                if ((imagem24.src === imagem29.src && imagem29.src === imagem34.src && imagem34.src === imagem39.src) && imagem24.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem18.src === imagem23.src && imagem23.src === imagem28.src && imagem28.src === imagem33.src) && imagem18.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem23.src === imagem28.src && imagem28.src === imagem33.src && imagem33.src === imagem38.src) && imagem23.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem12.src === imagem17.src && imagem17.src === imagem22.src && imagem22.src === imagem27.src) && imagem12.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem17.src === imagem22.src && imagem22.src === imagem27.src && imagem27.src === imagem32.src) && imagem17.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem22.src === imagem27.src && imagem27.src === imagem32.src && imagem32.src === imagem37.src) && imagem22.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem6.src === imagem11.src && imagem11.src === imagem16.src && imagem16.src === imagem21.src) && imagem6.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem11.src === imagem16.src && imagem16.src === imagem21.src && imagem21.src === imagem26.src) && imagem11.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem16.src === imagem21.src && imagem21.src === imagem26.src && imagem26.src === imagem31.src) && imagem16.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem5.src === imagem10.src && imagem10.src === imagem15.src && imagem15.src === imagem20.src) && imagem5.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem10.src === imagem15.src && imagem15.src === imagem20.src && imagem20.src === imagem25.src) && imagem10.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem4.src === imagem9.src && imagem9.src === imagem14.src && imagem14.src === imagem19.src) && imagem4.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                //Vitoria do jogador vermelho na diagonal esquerda
+                if ((imagem3.src === imagem10.src && imagem10.src === imagem17.src && imagem17.src === imagem24.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem2.src === imagem9.src && imagem9.src === imagem16.src && imagem16.src === imagem23.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem16.src && imagem16.src === imagem23.src && imagem23.src === imagem30.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem1.src === imagem8.src && imagem8.src === imagem15.src && imagem15.src === imagem22.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem15.src && imagem15.src === imagem22.src && imagem22.src === imagem29.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem22.src && imagem22.src === imagem29.src && imagem29.src === imagem36.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem14.src && imagem14.src === imagem21.src && imagem21.src === imagem28.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem21.src && imagem21.src === imagem28.src && imagem28.src === imagem35.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem28.src && imagem28.src === imagem35.src && imagem35.src === imagem42.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem20.src && imagem20.src === imagem27.src && imagem27.src === imagem34.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem27.src && imagem27.src === imagem34.src && imagem34.src === imagem41.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem26.src && imagem26.src === imagem33.src && imagem33.src === imagem40.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_vermelho.png'){
+                    contador_vitorias_Vermelho = contador_vitorias_Vermelho + 1;
+                    vitorias_Vermelho.innerHTML = 'Vitórias do jogador Vermelho: ' + contador_vitorias_Vermelho;
+                    reset();
+                }
+
+
+
+
+                
+                //Vitoria do jogador amarelo na horizontal das 4 colunas /XXXX---/
+                if ((imagem6.src === imagem12.src && imagem12.src === imagem18.src && imagem18.src === imagem24.src) && imagem6.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem5.src === imagem11.src && imagem11.src === imagem17.src && imagem17.src === imagem23.src) && imagem5.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem4.src === imagem10.src && imagem10.src === imagem16.src && imagem16.src === imagem22.src) && imagem4.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem3.src === imagem9.src && imagem9.src === imagem15.src && imagem15.src === imagem21.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem2.src === imagem8.src && imagem8.src === imagem14.src && imagem14.src === imagem20.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem1.src === imagem7.src && imagem7.src === imagem13.src && imagem13.src === imagem19.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na horizontal das 4 colunas /-XXXX--/ 
+                if ((imagem12.src === imagem18.src && imagem18.src === imagem24.src && imagem24.src === imagem30.src) && imagem12.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem11.src === imagem17.src && imagem17.src === imagem23.src && imagem23.src === imagem29.src) && imagem11.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem10.src === imagem16.src && imagem16.src === imagem22.src && imagem22.src === imagem28.src) && imagem10.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem15.src && imagem15.src === imagem21.src && imagem21.src === imagem27.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem14.src && imagem14.src === imagem20.src && imagem20.src === imagem26.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem13.src && imagem13.src === imagem19.src && imagem19.src === imagem25.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na horizontal das 4 colunas /--XXXX-/ 
+                if ((imagem18.src === imagem24.src && imagem24.src === imagem30.src && imagem30.src === imagem36.src) && imagem18.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem17.src === imagem23.src && imagem23.src === imagem29.src && imagem29.src === imagem35.src) && imagem17.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem16.src === imagem22.src && imagem22.src === imagem28.src && imagem28.src === imagem34.src) && imagem16.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem21.src && imagem21.src === imagem27.src && imagem27.src === imagem33.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem20.src && imagem20.src === imagem26.src && imagem26.src === imagem32.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem19.src && imagem19.src === imagem25.src && imagem25.src === imagem31.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na horizontal das 4 colunas /---XXXX/ 
+                if ((imagem24.src === imagem30.src && imagem30.src === imagem36.src && imagem36.src === imagem42.src) && imagem24.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem23.src === imagem29.src && imagem29.src === imagem35.src && imagem35.src === imagem41.src) && imagem23.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem22.src === imagem28.src && imagem28.src === imagem34.src && imagem34.src === imagem40.src) && imagem22.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem27.src && imagem27.src === imagem33.src && imagem33.src === imagem39.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem26.src && imagem26.src === imagem32.src && imagem32.src === imagem38.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem25.src && imagem25.src === imagem31.src && imagem31.src === imagem37.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+                
+                //Vitoria do jogador amarelo na vertical das 4 primeiras linhas de baixo pra cima
+                if ((imagem3.src === imagem4.src && imagem4.src === imagem5.src && imagem5.src === imagem6.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem10.src && imagem10.src === imagem11.src && imagem11.src === imagem12.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem16.src && imagem16.src === imagem17.src && imagem17.src === imagem18.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem22.src && imagem22.src === imagem23.src && imagem23.src === imagem24.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem27.src === imagem28.src && imagem28.src === imagem29.src && imagem29.src === imagem30.src) && imagem27.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem33.src === imagem34.src && imagem34.src === imagem35.src && imagem35.src === imagem36.src) && imagem33.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem39.src === imagem40.src && imagem40.src === imagem41.src && imagem41.src === imagem42.src) && imagem39.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na vertical das 4 linhas tirando a primeira de baixo pra cima
+                if ((imagem2.src === imagem3.src && imagem3.src === imagem4.src && imagem4.src === imagem5.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem9.src && imagem9.src === imagem10.src && imagem10.src === imagem11.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem15.src && imagem15.src === imagem16.src && imagem16.src === imagem17.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem21.src && imagem21.src === imagem22.src && imagem22.src === imagem23.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem26.src === imagem27.src && imagem27.src === imagem28.src && imagem28.src === imagem29.src) && imagem26.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem32.src === imagem33.src && imagem33.src === imagem34.src && imagem34.src === imagem35.src) && imagem32.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem38.src === imagem39.src && imagem39.src === imagem40.src && imagem40.src === imagem41.src) && imagem38.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na vertical das 4 primeiras linhas de cima pra baixo
+                if ((imagem1.src === imagem2.src && imagem2.src === imagem3.src && imagem3.src === imagem4.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem8.src && imagem8.src === imagem9.src && imagem9.src === imagem10.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem14.src && imagem14.src === imagem15.src && imagem15.src === imagem16.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem20.src && imagem20.src === imagem21.src && imagem21.src === imagem22.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem25.src === imagem26.src && imagem26.src === imagem27.src && imagem27.src === imagem28.src) && imagem25.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem31.src === imagem32.src && imagem32.src === imagem33.src && imagem33.src === imagem34.src) && imagem31.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem37.src === imagem38.src && imagem38.src === imagem39.src && imagem39.src === imagem40.src) && imagem37.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na diagonal direita
+                if ((imagem24.src === imagem29.src && imagem29.src === imagem34.src && imagem34.src === imagem39.src) && imagem24.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem18.src === imagem23.src && imagem23.src === imagem28.src && imagem28.src === imagem33.src) && imagem18.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem23.src === imagem28.src && imagem28.src === imagem33.src && imagem33.src === imagem38.src) && imagem23.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem12.src === imagem17.src && imagem17.src === imagem22.src && imagem22.src === imagem27.src) && imagem12.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem17.src === imagem22.src && imagem22.src === imagem27.src && imagem27.src === imagem32.src) && imagem17.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem22.src === imagem27.src && imagem27.src === imagem32.src && imagem32.src === imagem37.src) && imagem22.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem6.src === imagem11.src && imagem11.src === imagem16.src && imagem16.src === imagem21.src) && imagem6.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem11.src === imagem16.src && imagem16.src === imagem21.src && imagem21.src === imagem26.src) && imagem11.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem16.src === imagem21.src && imagem21.src === imagem26.src && imagem26.src === imagem31.src) && imagem16.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem5.src === imagem10.src && imagem10.src === imagem15.src && imagem15.src === imagem20.src) && imagem5.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem10.src === imagem15.src && imagem15.src === imagem20.src && imagem20.src === imagem25.src) && imagem10.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem4.src === imagem9.src && imagem9.src === imagem14.src && imagem14.src === imagem19.src) && imagem4.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                //Vitoria do jogador amarelo na diagonal esquerda
+                if ((imagem3.src === imagem10.src && imagem10.src === imagem17.src && imagem17.src === imagem24.src) && imagem3.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem2.src === imagem9.src && imagem9.src === imagem16.src && imagem16.src === imagem23.src) && imagem2.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem9.src === imagem16.src && imagem16.src === imagem23.src && imagem23.src === imagem30.src) && imagem9.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem1.src === imagem8.src && imagem8.src === imagem15.src && imagem15.src === imagem22.src) && imagem1.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem8.src === imagem15.src && imagem15.src === imagem22.src && imagem22.src === imagem29.src) && imagem8.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem15.src === imagem22.src && imagem22.src === imagem29.src && imagem29.src === imagem36.src) && imagem15.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem7.src === imagem14.src && imagem14.src === imagem21.src && imagem21.src === imagem28.src) && imagem7.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem14.src === imagem21.src && imagem21.src === imagem28.src && imagem28.src === imagem35.src) && imagem14.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem21.src === imagem28.src && imagem28.src === imagem35.src && imagem35.src === imagem42.src) && imagem21.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem13.src === imagem20.src && imagem20.src === imagem27.src && imagem27.src === imagem34.src) && imagem13.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem20.src === imagem27.src && imagem27.src === imagem34.src && imagem34.src === imagem41.src) && imagem20.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+
+                if ((imagem19.src === imagem26.src && imagem26.src === imagem33.src && imagem33.src === imagem40.src) && imagem19.src === 'http://127.0.0.1:5500/Campo_amarelo.png'){
+                    contador_vitorias_Amarelo = contador_vitorias_Amarelo + 1;
+                    vitorias_Amarelo.innerHTML = 'Vitórias do jogador Amarelo: ' + contador_vitorias_Amarelo;
+                    reset();
+                }
+            }, 500);
+        }
+
+        function reset(){
+            img1.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img2.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img3.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img4.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img5.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img6.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img7.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img8.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img9.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img10.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img11.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img12.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img13.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img14.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img15.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img16.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img17.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img18.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img19.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img20.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img21.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img22.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img23.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img24.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img25.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img26.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img27.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img28.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img29.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img30.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img31.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img32.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img33.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img34.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img35.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img36.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+
+            img37.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img38.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img39.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img40.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img41.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+            img42.src = 'http://127.0.0.1:5500/Campo_neutro.png'
+        }
+    </script>
+</body>
+</html>

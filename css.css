@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #203666;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo {
+    text-align: center;
+    border-radius: 12px;
+    border: solid;
+    background-color: #8FA4DC;
+    margin-top: 0px;
+    width: 400px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+div{
+    text-align: center;
+}
+
+#fundo{
+    background-color: #000000;
+    border-radius: 12px;
+    width: 750px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border: solid;
+}
+
+#jogador{
+    color: #000000;
+    font-size: 18px;
+    width: 245px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border: solid #8FA4DC;
+    border-radius: 12px;
+    background-color: #8FA4DC;
+}
+
+#vitorias_Vermelho{
+    color: #000000;
+    font-size: 18px;
+    width: 265px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border: solid #8FA4DC;
+    border-radius: 12px;
+    background-color: #8FA4DC;
+}
+
+#vitorias_Amarelo{
+    color: #000000;
+    font-size: 18px;
+    width: 265px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border: solid #8FA4DC;
+    border-radius: 12px;
+    background-color: #8FA4DC;
+}
+
+#botao1 {
+    color: #000000;
+    font-size: 18px;
+    width: 245px;  
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid #8FA4DC;
+    border-radius: 12px;
+    background-color: #8FA4DC;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    display: inline-block;
+}
+
+
+
+
